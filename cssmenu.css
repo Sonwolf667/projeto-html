@@ -1,0 +1,41 @@
+body { background: #000000 }
+#nav {
+	width: 300px;
+	background: #B5B5B5;
+	float: left;
+	height: 300px;
+	border-radius: 6px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 80%;
+	float: left;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#nav ul li  {
+	float: left;
+	font: 14px arial;
+}
+
+#nav ul li a {
+	color: #FF0000;
+	text-decoration: none;
+	display: block;
+
+}
+
+#nav ul li:hover {
+	background: #00FFFF;

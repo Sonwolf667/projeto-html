@@ -1,0 +1,13 @@
+body { background: #000000 }
+#nev {
+	width: 300px;
+	background: #B5B5B5;
+	float: left;
+	height: 300px;
+	border-radius: 6px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
